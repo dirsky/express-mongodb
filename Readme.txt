@@ -13,3 +13,5 @@ set DEBUG=express-generator-test:* & npm start
 
 npm start本质是:
 node ./bin/www
+
+此处注意不是node app.js
