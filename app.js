@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
 
 
 var mongoose=require('mongoose');
-mongoose.connect('mongodb://cvm/express_test?poolSize=40');
+mongoose.connect('mongodb://cvm/express_test?poolSize=40', { useNewUrlParser: true });
 
 module.exports = app;
