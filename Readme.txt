@@ -15,3 +15,9 @@ npm start本质是:
 node ./bin/www
 
 此处注意不是node app.js
+
+
+bin/www -> app.js -> routes -> models -> schemas
+            ^          |
+            |          |
+           views <------
