@@ -23,8 +23,9 @@ router.post('/reg', function(req, res, next) {
       console.log(err);
       return;
     }
-    console.log('注册成功');
-    res.send('注册成功,可以访问 /users');
+    console.log('注册成功'+b.username);
+    let next_url = "<a href='/users'>注册成功,可以访问url: /users</a>";
+    res.send(next_url);
   })
 });
 
