@@ -24,7 +24,7 @@ router.post('/reg', function(req, res, next) {
       return;
     }
     console.log('注册成功');
-    res.send('注册成功');
+    res.send('注册成功,可以访问 /users');
   })
 });
 

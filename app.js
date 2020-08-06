@@ -41,7 +41,7 @@ app.use(function(err, req, res, next) {
 
 var mongoose=require('mongoose');
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb://cvm/express_test?poolSize=40',
+mongoose.connect('mongodb://app:exp@cvm/express_test?poolSize=40',
     { useNewUrlParser: true, useUnifiedTopology: true});
 
 module.exports = app;
