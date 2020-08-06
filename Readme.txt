@@ -22,6 +22,12 @@ bin/www -> app.js -> routes -> models -> schemas
             |          |
            views <------
 
+
+package:
+  morgan日志记录工具
+
+在idea中增加了node.js插件，然后设置通过node.js方式启动，js file设置bin\www即可实现断点调试
+
 芒果库使用基本语句
 查询
 db.users.find()
