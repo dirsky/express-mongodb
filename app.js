@@ -41,7 +41,7 @@ app.use(function(err, req, res, next) {
 
 var mongoose=require('mongoose');
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb://app:exp@cvm/express_test?poolSize=40',
+mongoose.connect('mongodb://root:Gzxu2012@cf/express_test?authSource=admin',
     { useNewUrlParser: true, useUnifiedTopology: true});
 
 module.exports = app;
